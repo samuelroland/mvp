@@ -7,7 +7,7 @@ Landing page for MVP course
 <div class="flex bg-red-100 prose">
 <div class="flex-1">a </div>
 <div class="flex-1">b </div>
-<div class="flex-1">c </div>
+<div class="flex-1">
 
 ## hey there
 ### hey there
@@ -21,5 +21,23 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 ```
+
 </div>
+</div>
+
+
+<div class="flex bg-cyan-100 prose">
+
+## hey there
+### hey there
+### hey there
+
+```c
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    printf("hello world!\n");
+    return 0;
+}
+```
 
