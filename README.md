@@ -7,7 +7,7 @@ Landing page for MVP course
 <div class="flex bg-red-100 prose">
 <div class="flex-1">a </div>
 <div class="flex-1">b </div>
-<div class="flex-1">
+<div class="flex-1" markdown="1">
 
 ## hey there
 ### hey there
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 </div>
 
 
-<div class="flex bg-cyan-100 prose">
+<div class="flex bg-cyan-100 prose"  markdown="1">
 
 ## hey there
 ### hey there
