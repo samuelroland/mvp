@@ -2,8 +2,26 @@
 # This yaml frontmatter is required for jekyll to process the file
 ---
 
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 .btn {
   @apply rounded border border-gray-300;
+}
+
+.prose img {
+    height: 600px;
+}
+
+h2 strong, h3 strong {
+    color: #1fb5b2 !important;
+}
+
+h2 em, h3 em {
+    color: #1aac84 !important;
+}
+
+#delibaylogo {
+    height: 35px;
+    display: inline;
+    margin-left: 10px;
 }
