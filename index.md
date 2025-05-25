@@ -28,7 +28,9 @@ Les étudiants peinent à suivre une explication trop haut niveau et les enseign
 
 ## Et si vous faisiez **pratiquer vos étudiants en cours** pour **comprendre leurs lacunes** en récupérant leurs réponses, afin de *corriger immédiatement leur modèle mental* ?
 
-C'est là qu'intervient notre solution <img src="imgs/delibay-logo.svg" id="delibaylogo" />
+C'est là qu'intervient notre solution **qui a pour mission de redéfinir l'expérience d'apprentissage à l'informatique.** 
+
+<img src="imgs/delibay-logo.svg" id="delibaylogo" />
 
 **Delibay permet à tous les étudiants d'être actif et engagé** dans leur apprentissage en classe. Vous lancez des exercices, les étudiants y répondent, Delibay synthétise les réponses et vous permet d'adapter votre cours en temps réel pour adresser les mauvaises conceptions. **Cette pratique régulière et ce feedback immédiat est la clé pour que vos étudiants apprennent profondément et efficacement !**
 
@@ -36,7 +38,7 @@ C'est là qu'intervient notre solution <img src="imgs/delibay-logo.svg" id="deli
 
 > Donc c'est juste une énième plateforme de Quiz ?
 
-Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou d'autres solutions existantes. **Delibay a pour mission de redéfinir l'expérience d'apprentissage à l'informatique.** Dans cette plateforme open-source vous trouverez des questions de concepts (réponses courtes ou longues), des vrai/faux et des choix multiples, avec une **colorisation avancée du code**.
+Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou Kahoot. Dans cette plateforme open-source dédiée à l'informatique, vous trouverez des questions de concepts (réponses courtes ou longues), des vrai/faux et des choix multiples, avec une **colorisation avancée du code**!
 
 <img src="imgs/short-question-nice-code.png" class="nicecode" />
 
@@ -74,7 +76,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Migration de votre cours</h3>
-    <p>Nous nous chargeons de migrer tous vos exercices à Delibay. Si nécessaire pour vos cours, nous ajouterons le support de nouveaux langages de programmation ou types d'exercices.</p>
+    <p>Nous nous chargeons de migrer tous vos exercices à Delibay. Si nécessaire pour vos cours, nous ajouterons le support de nouveaux langages de code ou types d'exercices.</p>
 </div>
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
@@ -94,7 +96,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 
 
-<h2 class="gradient">Prêt·e à rendre vos cours interactifs et engageants ?</h2>
+<h2 class="gradient">Prêt à rendre vos cours interactifs et engageants ?</h2>
 
 Delibay est en cours de développement et de conception, nous vous tiendrons au courant quand vous pourrez la tester.
 
@@ -104,16 +106,15 @@ Delibay est en cours de développement et de conception, nous vous tiendrons au 
   method="POST"
   class="w-full md:mx-32 lg:mx-60"
 >
-  <label for="name" class="">Nom</label>
+  <label for="name" class="">Nom complet</label>
   <input class="border border-blue-500 rounded-sm" type="text" id="name" name="name" required> <br>
   <label for="email" class="">Email</label>
   <input class="border border-blue-500 rounded-sm" type="email" id="email" name="email" required> <br>
   <label for="email" class="">Remarque (optionnelle)</label>
-  <textarea class="border border-blue-500 rounded-sm" type="email" id="remark" name="remark" placeholder="Quels challenges avez-vous actuellement dans votre enseignement qui pourrait être résolu par Delibay ? Quels cours enseignez vous et dans quelle école ?" rows="5">
+  <textarea class="border border-blue-500 rounded-sm" type="email" id="remark" name="remark" placeholder="Quels challenges avez-vous actuellement dans votre enseignement sur lesquels Delibay pourrait vous aider ? Quels cours enseignez vous et dans quelle école ?" rows="5">
 </textarea>
   <br>
   <button type="submit" class="gradient border-2 border-gray-300 px-2 rounded-sm">Submit</button>
 </form>
 </div>
-<!-- todo  inclusif ? -->
 
