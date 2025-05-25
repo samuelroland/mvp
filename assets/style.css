@@ -9,7 +9,7 @@
 }
 
 .prose img {
-    height: 600px;
+    width: 800px;
 }
 
 h2 strong, h3 strong {
@@ -21,14 +21,23 @@ h2 em, h3 em {
 }
 
 #delibaylogo {
-    height: 35px;
+    width: 200px;
+    display: inline;
+    margin-left: 10px;
+}
+#nicecode {
+    width: 400px;
+    border: 1px gray solid;
+    padding: 20px;
     display: inline;
     margin-left: 10px;
 }
 
+.prose img {
+    margin: 0;
+}
+
 .prose h1 {
-    color: red;
-    font-size: 39px;
 
 		background: linear-gradient(to right, #1aa782 0%, #1ccd92 36%, #20a8c3 100%);
 		-webkit-background-clip: text;
@@ -36,4 +45,11 @@ h2 em, h3 em {
     /*To make the gradient adapt to length of heading but wrap on mobile*/
 		width: fit-content;
     max-width: 100%;
+
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bloc h3, .bloc p {
+    margin: 0
 }
