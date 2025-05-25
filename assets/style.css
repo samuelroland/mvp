@@ -25,3 +25,15 @@ h2 em, h3 em {
     display: inline;
     margin-left: 10px;
 }
+
+.prose h1 {
+    color: red;
+    font-size: 39px;
+
+		background: linear-gradient(to right, #1aa782 0%, #1ccd92 36%, #20a8c3 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+    /*To make the gradient adapt to length of heading but wrap on mobile*/
+		width: fit-content;
+    max-width: 100%;
+}
