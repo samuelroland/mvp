@@ -1,6 +1,7 @@
 ---
 # This yaml frontmatter is required for jekyll to process the file
 ---
+/*Note: this CSS is ugly and coded as fast as I can, just to validate the idea. I didn't figure out to make @apply work. */
 
 /* @import "tailwindcss"; */
 
@@ -25,12 +26,13 @@ h2 em, h3 em {
     display: inline;
     margin-left: 10px;
 }
+
 #nicecode {
-    width: 400px;
+    width: 100%;
+    max-width: 700px;
     border: 1px gray solid;
-    padding: 20px;
-    display: inline;
-    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .prose img {
@@ -50,6 +52,27 @@ h2 em, h3 em {
     margin-bottom: 0px;
 }
 
+.gradient {
+		background: linear-gradient(to right, #1aa782 0%, #1ccd92 36%, #20a8c3 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+    /*To make the gradient adapt to length of heading but wrap on mobile*/
+		width: fit-content;
+    max-width: 100%;
+}
+
 .bloc h3, .bloc p {
     margin: 0
+}
+
+label {
+    margin-right: 20px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
 }

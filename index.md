@@ -45,7 +45,7 @@ les traditionnels choix multiples
 
 Peut-être que ça ce stade, vous pensez
 
-> J'ai envie de gérer mon contenu localement et ne pas dépendre sur une plateforme web !
+> J'ai envie de gérer mon contenu localement et ne pas dépendre d'une autre plateforme web !
 
 Delibay a justement été conçu pour n'être qu'une plateforme de déploiement de vos exercices, vous gérez votre contenu localement dans Git via des fichiers textuels.
 
@@ -61,15 +61,50 @@ Delibay a justement été conçu pour n'être qu'une plateforme de déploiement 
 <div class="md:flex md:flex-wrap">
 
 <div class="bloc flex-1 m-2 border border-blue-500 p-5 rounded-sm">
-    <h3>Migration de votre cours sur Delibay</h3>
-    <p>Nous nous chargeons de migrer tous vos exercices, à Delibay et d'ajuster la structure. Nous supportons de nouveaux languages ou types d'exercices requis.</p>
+    <h3>Migration de votre cours</h3>
+    <p>Nous nous chargeons de migrer tous vos exercices, à Delibay et d'ajuster la structure. Si nécessaire pour vos cours, nous ajouter le support de nouveaux langages de programmation ou types d'exercices.</p>
 </div>
+
 <div class="bloc flex-1 m-2 border border-blue-500 p-5 rounded-sm">
     <h3>Création d'exercices sur mesure</h3>
-    <p>Besoin de créer des exercices challengeants qui mixe des concepts et du code ?</p>
+    <p>Besoin de créer des exercices challengeants qui mixe des concepts et du code ? Difficile de se mettre dans la peau des étudiants ?<br>
+    Nous nous chargeons de créer des exercices variés qui poussent les étudiants dans leur retranchements. Vous n'avez plus qu'à relire et choisir lesquels
+    sont les plus pertinents à chaque session de cours.<br>
+    Les propositions et vos retours se font dans des pull requests sur un repository Git public.
+    </p>
 </div>
+
 <div class="bloc flex-1 m-2 border border-blue-500 p-5 rounded-sm">
-    <h3></h3>
-    <p></p>
+    <h3>Amélioration continue de vos exercices</h3>
+    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuels, pour améliorer continuellement la qualité de la pratique de vos étudiants.</p>
 </div>
+
 </div>
+
+<h2 class="gradient">Prêt·e à retirer ce brouillard et passer à un cours orienté sur la pratique ?</h2>
+
+Delibay est en cours de développement et conception, nous vous tiendrons au courant quand les 
+
+<div class="flex justify-center" >
+<form
+  action="https://www.formbackend.com/f/15195317ca0eef63"
+  method="POST"
+  class="w-full md:mx-32 lg:mx-60"
+>
+  <label for="name" class="gradient">Nom</label>
+  <input class="border border-blue-500 rounded-sm" type="text" id="name" name="name" required>
+
+<br>
+  <label for="email" class="gradient">Email</label>
+  <input class="border border-blue-500 rounded-sm" type="email" id="email" name="email" required>
+
+<br>
+  <label for="email" class="gradient">Remarque (optionnel)</label>
+  <textarea class="border border-blue-500 rounded-sm" type="email" id="remark" name="remark" placeholder="Qu'est-ce qui vous intéresse dans ce projet ? Quels challenges actuels pourrait être résolu par Delibay ? Quel cours enseignez vous et dans quelle école ?" rows="5">
+</textarea>
+  <br>
+  <button type="submit" class="gradient border border-gray-300 px-2 rounded-sm">Submit</button>
+</form>
+</div>
+<!-- todo  inclusif ? -->
+
