@@ -39,7 +39,8 @@ h2 em, h3 em {
 }
 
 .prose img {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .prose img {
