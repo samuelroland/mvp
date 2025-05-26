@@ -76,7 +76,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Migration de votre cours</h3>
-    <p>Nous nous chargeons de migrer tous vos exercices sur Delibay. Si nécessaire pour vos cours, nous ajouterons le support de nouveaux langages de code ou types d'exercices.</p>
+    <p>Nous nous chargeons de migrer tous vos exercices sur Delibay. Nous ajouterons le support de nouveaux langages de programmation ou types d'exercices si besoin. <br>Vous n'avez qu'à publier le contenu existant sur un repository Git et nous nous occupons du reste!</p>
 </div>
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
