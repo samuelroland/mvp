@@ -52,7 +52,7 @@ Delibay permet de regrouper les réponses pour rapidement les visualiser et déc
 
 > C'est bien mais pour notre cours de C++ on a besoin de faire du code aussi !
 
-Vous pourrez aussi lancer des exercices de programmation dans une session live en classe. **Tous les exercices sont validé par des suites de tests automatisés**. Vous pourrez voir en un clin d'oeil l'état de progression et voir le code de chaque réponse si nécessaire.
+Vous pourrez aussi lancer des exercices de programmation dans une session live en classe. **Tous les exercices sont validés par des suites de tests automatisés**. Visualiser en un clin d'oeil l'état de progression et le code de vos étudiants.
 
 > C'est comme codecheck.io ou d'autres suites de tests en ligne en fait ? C'était vraiment lent dans mon souvenir...
 
@@ -76,7 +76,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Migration de votre cours</h3>
-    <p>Nous nous chargeons de migrer tous vos exercices à Delibay. Si nécessaire pour vos cours, nous ajouterons le support de nouveaux langages de code ou types d'exercices.</p>
+    <p>Nous nous chargeons de migrer tous vos exercices sur Delibay. Si nécessaire pour vos cours, nous ajouterons le support de nouveaux langages de code ou types d'exercices.</p>
 </div>
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
@@ -88,7 +88,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Amélioration continue de vos exercices</h3>
-    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer continuellement la qualité de la pratique de vos étudiants.</p>
+    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer la qualité des exercices. Nous nous occupons de détailler des solutions, agrémenter de schémas, imaginer des métaphores ou vulgariser des concepts abstraits.</p>
 </div>
 
 </div>
@@ -98,7 +98,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <h2 class="gradient">Prêt à rendre vos cours interactifs et engageants ?</h2>
 
-Delibay est en cours de développement et de conception, nous vous tiendrons au courant quand vous pourrez la tester.
+Delibay est en cours de développement, nous vous informerons une fois la première version publiée.
 
 <div class="flex justify-center" >
 <form
