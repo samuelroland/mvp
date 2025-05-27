@@ -54,13 +54,19 @@ Delibay permet de regrouper les réponses pour rapidement les visualiser et déc
 
 Vous pourrez aussi lancer des exercices de programmation dans une session live en classe. **Tous les exercices sont validés par des suites de tests automatisés**. Visualiser en un clin d'oeil l'état de progression et le code de vos étudiants.
 
+<img alt="dashboard statistiques des réponses à un exo de code en live, avec morceaux de code des étudiants et résultats des checks" src="schemas/dashboard-code-exo-teacher.png" class="mockup" />
+
 > C'est comme codecheck.io ou d'autres suites de tests en ligne en fait ? C'était vraiment lent dans mon souvenir...
 
-**Le code est développé et exécuté en local** pour bénéficier d'un **maximum de vitesse** de compilation et d'une **expérience d'IDE** complète!
+**Le code est développé et exécuté en local** pour bénéficier d'un **maximum de vitesse** de compilation.
 
-> Okay, mais j'ai envie de gérer mon contenu localement et ne pas dépendre d'une autre plateforme web !
+> L'expérience de coder en ligne dans des éditeurs, c'est pénible généralement...
 
-Avec Delibay, vous gérez votre contenu localement dans Git via des fichiers texte, Delibay déploie ensuite votre cours à partir de ce repository et se synchronise à chaque `git push`.
+Coder en local signifie aussi de bénéficier d'une **expérience d'IDE** complète, de pouvoir choisir son éditeur et le configurer à souhait !
+
+> Okay, mais j'ai envie de gérer mon contenu localement et ne pas dépendre d'encore une autre plateforme web !
+
+Avec Delibay, vous gérez votre contenu localement dans Git via des fichiers texte, Delibay déploie ensuite votre cours à partir de ce repository et se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, uploader sur Moodle ou Teams et avertir vos étudiants.
 
 ## Nos services
 
