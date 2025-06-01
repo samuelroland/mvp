@@ -37,6 +37,10 @@ h2 em, h3 em {
     width: 100%;
     max-width: 1000px;
 }
+.prose .mockup-big {
+    width: 100%;
+    max-width: 1100px;
+}
 
 .prose img {
     width: 100%;

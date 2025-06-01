@@ -54,19 +54,16 @@ Delibay permet de regrouper les réponses pour rapidement les visualiser et déc
 
 Vous pourrez aussi lancer des exercices de programmation dans une session live en classe. **Tous les exercices sont validés par des suites de tests automatisés**. Visualiser en un clin d'oeil l'état de progression et le code de vos étudiants.
 
-<img alt="dashboard statistiques des réponses à un exo de code en live, avec morceaux de code des étudiants et résultats des checks" src="schemas/dashboard-code-exo-teacher.png" class="mockup" />
+<img alt="dashboard statistiques des réponses à un exo de code en live, avec morceaux de code des étudiants et résultats des checks" src="schemas/dashboard-code-exo-teacher.png" class="mockup-big" />
 
-> C'est comme codecheck.io ou d'autres suites de tests en ligne en fait ? C'était vraiment lent dans mon souvenir...
+> C'est comme codecheck.io ou d'autres suites de tests en ligne en fait ? C'était vraiment lent dans mon souvenir...  
+> L'expérience de coder dans des éditeurs simplifié en ligne c'est pénible généralement! Pas d'auto-complétion, pas d'erreurs visibles...
 
-**Le code est développé et exécuté en local** pour bénéficier d'un **maximum de vitesse** de compilation.
-
-> L'expérience de coder en ligne dans des éditeurs, c'est pénible généralement...
-
-Coder en local signifie aussi de bénéficier d'une **expérience d'IDE** complète, de pouvoir choisir son éditeur et le configurer à souhait !
+**Le code est développé et exécuté en local** pour bénéficier d'un **maximum de vitesse** de compilation. Coder localement signifie aussi de bénéficier d'une **expérience d'IDE** complète, de pouvoir choisir son éditeur et le configurer à souhait !
 
 > Okay, mais j'ai envie de gérer mon contenu localement et ne pas dépendre d'encore une autre plateforme web !
 
-Avec Delibay, vous gérez votre contenu localement dans Git via des fichiers texte, Delibay déploie ensuite votre cours à partir de ce repository et se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, uploader sur Moodle ou Teams et avertir vos étudiants.
+Avec Delibay, vous gérez votre contenu localement via des fichiers texte dans un repository Git, qui est ensuite déployé sur Delibay. Le cours déployé se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, uploader sur Moodle ou Teams et avertir vos étudiants.
 
 ## Nos services
 
