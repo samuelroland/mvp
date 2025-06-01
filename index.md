@@ -65,6 +65,26 @@ Vous pourrez aussi lancer des exercices de programmation dans une session live e
 
 Avec Delibay, vous gérez votre contenu localement via des fichiers texte dans un repository Git, qui est ensuite déployé sur Delibay. Le cours déployé se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, envoyer sur Moodle ou Teams et à avertir vos étudiants.
 
+> Des fichiers textes ? Du YAML ? Du Markdown ? Me dites pas que vous faites ça en JSON ?
+
+Pour permettre une rédaction et maintenance la plus efficace possible, nous avons inventé une nouvelle syntaxe nommée DY, à mi-chemin entre le Markdown et le YAML. Voici un exemple de définition de 2 checks pour l'exercice de code visible sur le dashboard précédent.
+
+<div>
+<label class="font-mono px-3 ml-3 rounded-sm border border-b-0 border-#222436 rounded-br-none rounded-bl-none !w-min">exo.dy</label>
+<!-- <img alt="Exemple de syntaxe DY inventée pour Delibay, permettant de décrire un exercice de code" src="imgs/exo.dy.svg" class="mockup border border-gray-300 p-3 rounded-md" /> -->
+<pre class="!p-5 !my-0 !bg-[#222436] break-words whitespace-pre-wrap overflow-hidden" style="font-family: 'Fira Code', monospace; display: block;">
+<span style="color: #20a8c3; font-weight: bold;">exo </span>Moyenne d'un vecteur
+Créer une fonction <code>vectorAverage()</code> qui prend en paramètre un vecteur de int et retourne la moyenne des valeurs.
+
+<span style="color: #20a8c3; font-weight: bold;">check </span>Simple vecteur 1,2,3,4
+<span style="color: #20a8c3; font-weight: bold;">args </span>4
+<span style="color: #20a8c3; font-weight: bold;">see </span>The average of first 4 values is 2.5
+
+<span style="color: #20a8c3; font-weight: bold;">check </span>Vecteur vide -> zéro
+<span style="color: #20a8c3; font-weight: bold;">see </span>The average of first 0 values is 0
+</pre>
+</div>
+
 ## Nos services
 
 En plus de l'hébergement de l'infrastructure, nous vendons également des services pour répondre aux problèmes suivants.
@@ -114,7 +134,7 @@ Delibay est en cours de développement, nous vous informerons une fois la premi�
   <label for="email" class="">Email</label>
   <input class="border border-blue-500 rounded-sm" type="email" id="email" name="email" required> <br>
   <label for="email" class="">Remarque (optionnelle)</label>
-  <textarea class="border border-blue-500 rounded-sm" type="email" id="remark" name="remark" placeholder="Quels challenges avez-vous actuellement dans votre enseignement sur lesquels Delibay pourrait vous aider ? Quels cours enseignez vous et dans quelle école ?" rows="5">
+  <textarea class="border border-blue-500 rounded-sm" type="email" id="remark" name="remark" placeholder="Quels challenges avez-vous actuellement dans votre enseignement sur lesquels Delibay pourrait vous aider ? Quels cours enseignez-vous et dans quelle école ?" rows="5">
 </textarea>
   <br>
   <button type="submit" class="gradient border-2 border-gray-300 px-2 rounded-sm">Submit</button>

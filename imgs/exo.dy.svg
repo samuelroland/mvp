@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1003.4 296.67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        * {
+            font-family: Fira Code, monospace;
+            font-size: 23px;
+        }
+        tspan, text {
+            font-variant-ligatures: none;
+            dominant-baseline: central;
+            white-space: pre;
+        }
+        .bg {
+            stroke-width: "0.5px";
+        }
+        
+        .fc0 { fill: #20a8c3; font-weight: bold;}
+    </style>
+<text x="-1.4979076" y="11.918686"><tspan/><tspan class="fc0">exo </tspan><tspan>Moyenne d'un vecteur
+</tspan></text>
+<text x="-1.4979076" y="41.918686"><tspan>Créer une fonction `vectorAverage()` qui prend en paramètre un vecteur 
+</tspan></text>
+<text x="-1.4979076" y="71.918686"><tspan>de int et retourne la moyenne des valeurs.
+</tspan></text>
+<text x="-1.4979076" y="131.91869"><tspan class="fc0">check </tspan><tspan>Simple vecteur 1,2,3,4
+</tspan></text>
+<text x="-1.4979076" y="161.91869"><tspan class="fc0">args </tspan><tspan>4
+</tspan></text>
+<text x="-1.4979076" y="191.91869"><tspan class="fc0">see </tspan><tspan>The average of first 4 values is 2.5
+</tspan></text>
+<text x="-1.4979076" y="251.91869"><tspan class="fc0">check </tspan><tspan>Vecteur vide -&gt; zéro
+</tspan></text>
+<text x="-1.4979076" y="281.9187"><tspan class="fc0">see </tspan><tspan>The average of first 0 values is 0
+</tspan></text>
+<text x="-1.4979076" y="311.9187"><tspan/></text>
+</svg>

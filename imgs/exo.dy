@@ -1,0 +1,10 @@
+exo Moyenne d'un vecteur
+Créer une fonction `vectorAverage()` qui prend en paramètre un vecteur 
+de int et retourne la moyenne des valeurs.
+
+check Simple vecteur 1,2,3,4
+args 4
+see The average of first 4 values is 2.5
+
+check Vecteur vide -> zéro
+see The average of first 0 values is 0
