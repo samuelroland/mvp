@@ -24,7 +24,7 @@ Vous avez peut-être remarqué que
 - Même les étudiants convaincus d'avoir compris ont parfois mal compris ?
 - Ce n'est que très tard à la correction des évaluations que vous vous rendez compte du problème
 
-Les étudiants peinent à suivre une explication trop haut niveau et les enseignants n'arrivent pas à avoir vision précise de la compréhension de la classe ? **Comment peut-on éclaircir tout ce brouillard des 2 côtés ?**
+Les étudiants peinent à suivre une explication de trop haut niveau et les enseignants n'arrivent pas à avoir une vision précise de la compréhension de la classe ? **Comment peut-on éclaircir tout ce brouillard des 2 côtés ?**
 
 ## Et si vous faisiez **pratiquer vos étudiants en cours** pour **comprendre leurs lacunes** en récupérant leurs réponses, afin de *corriger immédiatement leur modèle mental* ?
 
@@ -32,13 +32,13 @@ C'est là qu'intervient notre solution **qui a pour mission de redéfinir l'exp�
 
 <img src="imgs/delibay-logo.svg" id="delibaylogo" />
 
-**Delibay permet à tous les étudiants d'être actif et engagé** dans leur apprentissage en classe. Vous lancez des exercices, les étudiants y répondent, Delibay synthétise les réponses et vous permet d'adapter votre cours en temps réel pour adresser les mauvaises conceptions. **Cette pratique régulière et ce feedback immédiat est la clé pour que vos étudiants apprennent profondément et efficacement !**
+**Delibay permet à tous les étudiants d'être actifs et engagés** dans leur apprentissage en classe. Vous lancez des exercices, les étudiants y répondent, Delibay synthétise les réponses et vous permet d'adapter votre cours en temps réel pour adresser les mauvaises conceptions. **Cette pratique régulière et ce feedback immédiat sont la clé pour que vos étudiants apprennent profondément et efficacement !**
 
 ![deliberate-flow](schemas/deliberate-flow.png)
 
-> Donc c'est juste une énième plateforme de Quiz ?
+> Donc c'est juste une énième plateforme de quiz ?
 
-Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou Kahoot. Dans cette plateforme open-source dédiée à l'informatique, vous trouverez des questions de concepts (réponses courtes ou longues), des vrai/faux et des choix multiples, avec une **colorisation avancée du code**!
+Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou Kahoot!. Dans cette plateforme open-source dédiée à l'informatique, vous trouverez des questions de concepts (réponses courtes ou longues), des vrai/faux et des choix multiples, avec une **colorisation avancée du code**!
 
 <img src="imgs/short-question-nice-code.png" class="nicecode" />
 
@@ -46,24 +46,24 @@ Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou Kahoot. Da
 
 > Comment ça ? Voir les réponses de *TOUS* les étudiants ça fait beaucoup !
 
-Delibay permet de regrouper les réponses pour rapidement les visualiser et décider du feedback à donner, voici un exemple avec une question à réponse courte.
+Delibay permet de regrouper les réponses pour rapidement les visualiser et décider du feedback à donner. Voici un exemple avec une question à réponse courte.
 
 <img alt="dashboard résumé des réponses en live" src="schemas/dashboard-short-answer.png" class="mockup" />
 
-> C'est bien mais pour notre cours de C++ on a besoin de faire du code aussi !
+> C'est bien, mais pour notre cours de C++ on a besoin de faire du code aussi !
 
 Vous pourrez aussi lancer des exercices de programmation dans une session live en classe. **Tous les exercices sont validés par des suites de tests automatisés**. Visualiser en un clin d'oeil l'état de progression et le code de vos étudiants.
 
 <img alt="dashboard statistiques des réponses à un exo de code en live, avec morceaux de code des étudiants et résultats des checks" src="schemas/dashboard-code-exo-teacher.png" class="mockup-big" />
 
 > C'est comme codecheck.io ou d'autres suites de tests en ligne en fait ? C'était vraiment lent dans mon souvenir...  
-> L'expérience de coder dans des éditeurs simplifié en ligne c'est pénible généralement! Pas d'auto-complétion, pas d'erreurs visibles...
+> L'expérience de coder dans des éditeurs simplifiés en ligne, c'est pénible ! Pas d'auto-complétion, pas d'erreurs visibles...
 
 **Le code est développé et exécuté en local** pour bénéficier d'un **maximum de vitesse** de compilation. Coder localement signifie aussi de bénéficier d'une **expérience d'IDE** complète, de pouvoir choisir son éditeur et le configurer à souhait !
 
-> Okay, mais j'ai envie de gérer mon contenu localement et ne pas dépendre d'encore une autre plateforme web !
+> Okay, mais j'ai envie de gérer mon contenu localement et de ne pas dépendre d'encore une autre plateforme web !
 
-Avec Delibay, vous gérez votre contenu localement via des fichiers texte dans un repository Git, qui est ensuite déployé sur Delibay. Le cours déployé se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, uploader sur Moodle ou Teams et avertir vos étudiants.
+Avec Delibay, vous gérez votre contenu localement via des fichiers texte dans un repository Git, qui est ensuite déployé sur Delibay. Le cours déployé se synchronise à chaque `git push`! Plus besoin de perdre du temps à faire des exports en PDF, envoyer sur Moodle ou Teams et à avertir vos étudiants.
 
 ## Nos services
 
@@ -71,7 +71,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 > Intéressant... mais j'ai déjà un recueil d'exercices en PDF et j'ai la flemme de passer des heures à les migrer...
 
-> J'aimerai bien mais je n'ai pas le temps de créer tous ces exercices !
+> J'aimerai bien faire plus d'exercices en classe, mais je n'ai pas le temps de créer tous ces exercices !
 
 > C'est difficile de créer des questions challengeantes pour les étudiants... parce qu'en tant qu'expert, c'est difficile de se mettre dans la peau des étudiants et de cerner leurs incompréhensions.
 
@@ -91,7 +91,7 @@ En plus de l'hébergement de l'infrastructure, nous vendons également des servi
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Amélioration continue de vos exercices</h3>
-    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer la qualité des exercices. Nous nous occupons de détailler des solutions, agrémenter de schémas, imaginer des métaphores ou vulgariser des concepts abstraits.</p>
+    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer la qualité des exercices. Nous nous occupons de détailler des solutions, d'agrémenter de schémas, d'imaginer des métaphores ou de vulgariser des concepts abstraits.</p>
 </div>
 
 </div>
