@@ -42,7 +42,7 @@ Sur Delibay, l'expérience n'a rien à voir avec Socrative, Moodle ou Kahoot!. D
 
 <img src="imgs/short-question-nice-code.png" class="nicecode" />
 
-<img src="imgs/mcq.png" class="nicecode" />
+<img src="imgs/mcq.png" class="nicecode-big" />
 
 > Comment ça ? Voir les réponses de *TOUS* les étudiants ça fait beaucoup !
 
