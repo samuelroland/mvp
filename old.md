@@ -30,7 +30,7 @@ Les étudiants peinent à suivre une explication de trop haut niveau et les ense
 
 C'est là qu'intervient notre solution **qui a pour mission de redéfinir l'expérience d'apprentissage à l'informatique.** 
 
-<img src="imgs/delibay-logo.svg" id="delibaylogo" />
+<img src="imgs/delibay-logo.svg" id="olddelibaylogo" />
 
 **Delibay permet à tous les étudiants d'être actifs et engagés** dans leur apprentissage en classe. Vous lancez des exercices, les étudiants y répondent, Delibay synthétise les réponses et vous permet d'adapter votre cours en temps réel pour adresser les mauvaises conceptions. **Cette pratique régulière et ce feedback immédiat sont la clé pour que vos étudiants apprennent profondément et efficacement !**
 

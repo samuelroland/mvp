@@ -38,7 +38,13 @@ h2 em, h3 em {
 }
 
 #delibaylogo {
+    max-width: 400px;
+}
+
+/* To keep the style of logo on old.md */
+#olddelibaylogo {
     display: inline;
+    max-width: 200px;
 }
 
 .nicecode-big {
