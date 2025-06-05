@@ -53,7 +53,7 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiples, de ta
 <div class="bloc flex-1 space-y-2 ">
     <div class="card p-5 flex-1">
         <h3>En live ou asynchrone</h3>
-        <p>Delibay redéfinit l'expérience en classe et en révision. Les personnes qui enseignent ou assistantent peuvent accéder aux réponses pour mieux comprendre les lacunes des étudiant·es.</p>
+        <p>Delibay redéfinit l'expérience en classe et en révision. Les enseignant·es et assistant·es peuvent accéder aux réponses pour mieux comprendre les lacunes des étudiant·es.</p>
     </div>
     <div class="card p-5 flex-1">
         <h3>Synthèse des réponses</h3>
