@@ -1,7 +1,7 @@
 ---
 # This yaml frontmatter is required for jekyll to process the file
 ---
-/*Note: this CSS is ugly and coded as fast as I can, just to validate the idea. I didn't figure out to make @apply work. */
+/*Note: this CSS is ugly and coded as fast as I can, just to validate the idea. I didn't figure out why @apply doesn't work. */
 
 /* @import "tailwindcss"; */
 
@@ -9,6 +9,15 @@
   @apply rounded border border-gray-300;
 }
 
+.card > h4 {
+    margin-top: 10px !important;
+
+}
+.card {
+    border: 2px solid #1aa78272;
+    border-radius: 15px;
+    padding: 10px;
+}
 
 
 h2 strong, h3 strong {

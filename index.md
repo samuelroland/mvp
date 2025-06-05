@@ -2,18 +2,39 @@
 layout: default
 ---
 
-<h1 class="!text-[28px] xs:!text-[35px] md:!text-[40px] sm:!bg-red-500 md:bg-blue-500">Redéfinir l'expérience d'apprentissage et d'enseignement à l'informatique</h1>
+<div class="md:flex flex-wrap ">
+<h1 class="flex-1 flex items-center !text-[28px] xs:!text-[35px] md:!text-[35px] sm:!bg-red-500 md:bg-blue-500">Redéfinir l'expérience d'apprentissage et d'enseignement à l'informatique</h1>
 
+<img class="flex-1 md:p-20" src="imgs/delibay-logo.svg" id="delibaylogo" />
+</div>
+
+### C'est la mission de Delibay
+**Permettre aux étudiants de pratiquer** un maximum sans friction pour acquérir des compétences profondes  
+**Aider les enseignants** à créer des exercices, les déployer, **concevoir des cours dynamiques** et transmettre **des compétences qui auront un impact** sur le long terme
+
+<h2 class="gradient">Une expérience différente</h2>
+Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de texte et de vrai/faux...
+
+<div class="lg:flex lg:flex-wrap lg:space-x-2 space-y-2 lg:space-y-0">
+<div class="flex-1 ">
+
+<h3>Pour les étudiants</h3>
+
+<div class="bloc flex-1 space-x-2 space-y-2">
+    <div class="card flex-1"><h4>Entrainement optimisé</h4><p>Entrainer en priorité les exercices adaptés à votre niveau et travailler sur vos lacunes.</p></div>
+    <div class="card flex-1"><h4>Codez localement</h4><p>Fini les exercices de code dans le navigateur, vous bénéficier d'une expérience locale et rapide. Avec toute la puissance de votre IDE favori, raccourcis et extensions.</p></div>
+    <div class="card flex-1"><h4>Fini les cours magistraux</h4><p>Au lieu de vous ennuyer de longues heures en cours, Delibay permet de s'impliquer dans un apprentissage actif en classe.</p></div>
+</div>
+
+</div>
+<div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
+
+<h3>Pour les enseignants</h3>
+
+</div>
+</div>
 
 ## Nos services
-
-En plus de l'hébergement de l'infrastructure, nous vendons également des services pour répondre aux problèmes suivants.
-
-> Intéressant... mais j'ai déjà un recueil d'exercices en PDF et j'ai la flemme de passer des heures à les migrer...
-
-> J'aimerai bien faire plus d'exercices en classe, mais je n'ai pas le temps de créer tous ces exercices !
-
-> C'est difficile de créer des questions challengeantes pour les étudiants... parce qu'en tant qu'expert, c'est difficile de se mettre dans la peau des étudiants et de cerner leurs incompréhensions.
 
 <div class="md:flex md:flex-wrap md:space-x-2 space-y-2 md:space-y-0">
 
