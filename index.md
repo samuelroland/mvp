@@ -9,8 +9,8 @@ layout: default
 </div>
 
 #### Comment ?
-### **En permettant aux étudiants de pratiquer intensément** dans une expérience la plus fluide possible, pour *acquérir des compétences profondes*.  
-### En aidant les enseignants à créer des exercices, les déployer, **concevoir des cours dynamiques** et *transmettre des compétences* qui auront un *impact sur le long terme*.
+### **En permettant aux étudiant·es de pratiquer intensément** dans une expérience la plus fluide possible, pour *acquérir des compétences profondes*
+### En aidant les enseignant·es à créer des exercices, les déployer, **concevoir des cours dynamiques** et *transmettre des compétences* qui auront un *impact sur le long terme*
 
 Delibay est dédié aux écoles d'informatique qui souhaitent améliorer la qualité et l'efficacité de leur enseignement.
 
@@ -20,19 +20,23 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
 <div class="md:flex md:flex-wrap md:space-x-2 space-y-2 md:space-y-0">
 <div class="flex-1 ">
 
-<h3>Pour les étudiants</h3>
+<h3>Pour les étudiant·es</h3>
 
 <div class="bloc flex-1 space-y-2 ">
-    <div class="card p-5 flex-1"><h3>Entrainement optimisé</h3>
-    <p>Entrainer en priorité les exercices autour de vos lacunes. Une fois l'exercice terminé, accédez aux solutions en tout temps pour réviser en tout temps.</p>
+    <div class="card p-5 flex-1">
+    <h3>Entrainement optimisé</h3>
+    <p>Entrainer en priorité les exercices autour de vos lacunes. Une fois l'exercice terminé, accédez aux solutions pour réviser en tout temps.</p>
 </div>
-    <div class="card p-5 flex-1"><h3>Codez localement</h3>
-        <p>Fini les exercices de code dans le navigateur! Garder la puissance de votre IDE local et une boucle de feedback plus rapide.</p>
+    <div class="card p-5 flex-1">
+        <h3>Codez localement</h3>
+        <p>Fini les exercices de code dans le navigateur! Gardez la puissance de votre IDE local et une boucle de feedback plus rapide.</p>
     </div>
-    <div class="card p-5 flex-1"><h3>Fini les cours magistraux</h3>
+    <div class="card p-5 flex-1">
+        <h3>Fini les cours magistraux</h3>
         <p>Au lieu de vous ennuyer de longues heures en cours, à rester passif et parfois perdu durant 1h30 de théorie, Delibay permet de rendre l'apprentissage en classe interactif.</p>
     </div>
-    <div class="card p-5 flex-1"><h3>Feedback riche et immédiat</h3>
+    <div class="card p-5 flex-1">
+        <h3>Feedback riche et immédiat</h3>
         <p>Obtenez du feedback immédiat via des suites de tests sur chaque exercice, lancée à chaque sauvegarde de fichier! Les exercices de concepts sont en partie automatiquement corrigés également.</p>
     </div>
 </div>
@@ -42,20 +46,24 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
 
 <div class="flex-1 ">
 
-<h3>Pour les enseignants</h3>
+<h3>Pour les enseignant·es</h3>
 
 <div class="bloc flex-1 space-y-2 ">
-    <div class="card p-5 flex-1"><h3>En live ou asynchrone</h3>
-        <p>Delibay redéfinit l'expérience en classe et en révision. Les personnes qui enseignent peuvent accéder aux réponses pour mieux comprendre les lacunes de vos étudiants.</p>
+    <div class="card p-5 flex-1">
+        <h3>En live ou asynchrone</h3>
+        <p>Delibay redéfinit l'expérience en classe et en révision. Les personnes qui enseignent ou assistantes peuvent accéder aux réponses pour mieux comprendre les lacunes des étudiant·es.</p>
     </div>
-    <div class="card p-5 flex-1"><h3>Synthèse des réponses</h3>
+    <div class="card p-5 flex-1">
+        <h3>Synthèse des réponses</h3>
         <p>Une interface de synthèse des réponses vous permet de comprendre les tendances en un coup d'oeil et corriger immédiatement les incompréhensions. </p>
     </div>
-    <div class="card p-5 flex-1"><h3>Maintenance et déploiement rapide</h3>
+    <div class="card p-5 flex-1">
+        <h3>Maintenance et déploiement rapide</h3>
         <p>Tous les exercices sont gérés avec Git dans des fichiers textuels et faciles à éditer. Le déploiement se fait en un <code>git push</code>.</p>
     </div>
-    <div class="card p-5 flex-1"><h3>Exercices challengeants et motivants</h3>
-        <p>Au delà des exercices choix multiples, utiliser des formats différents pour motiver les étudiants: qu'affiche ce code, est-ce ce code compile, comment refactoriser cette fonction, pourquoi ce code ne fonctionne pas, etc.</p>
+    <div class="card p-5 flex-1">
+        <h3>Exercices challengeants et motivants</h3>
+        <p>Au delà des exercices choix multiples, utiliser des formats différents pour motiver les étudiant·es: qu'affiche ce code, est-ce ce code compile, comment refactoriser cette fonction, pourquoi ce code ne fonctionne pas, etc.</p>
     </div>
 </div>
 
@@ -74,13 +82,13 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
 
 <div class="bloc flex-1 border1 p-5">
     <h3>Migration de votre cours</h3>
-    <p>Nous nous chargeons de migrer tous vos exercices sur Delibay. Nous ajouterons le support de nouveaux langages de programmation ou types d'exercices si besoin. <br>Vous n'avez qu'à publier le contenu existant sur un repository Git et nous nous occupons du reste!</p>
+    <p>Nous nous chargeons de migrer tous les exercices existants sur Delibay. Nous ajouterons le support de nouveaux langages de programmation ou types d'exercices si besoin. <br>Vous n'avez qu'à publier le contenu existant sur un repository Git et nous nous occupons du reste!</p>
 </div>
 
 <div class="bloc flex-1 border1 p-5">
     <h3>Création d'exercices sur mesure</h3>
-    <p>Nous nous chargeons de créer des exercices variés qui poussent les étudiants dans leurs retranchements. Vous n'avez plus qu'à relire et choisir lesquels sont les plus pertinents à chaque session de cours.<br>
-    Les propositions et vos retours se font dans des pull requests sur un repository Git public.
+    <p>Nous nous chargeons de créer des exercices variés qui poussent les étudiant·es dans leurs retranchements. Vous n'avez plus qu'à relire et choisir lesquels sont les plus pertinents à chaque session de cours.<br>
+    Les propositions et les retours se font dans des pull requests sur un repository Git public.
     </p>
 </div>
 
@@ -93,7 +101,7 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
 
 
 
-## Prêt à rendre vos cours interactifs et engageants ?
+## Prêt·e à vivre des cours interactifs et engageants ?
 
 Delibay est en cours de développement, en attendant partagez-nous vos questions ou retours. Nous vous informerons dès qu'une première version sera disponible pour être testée.
 
