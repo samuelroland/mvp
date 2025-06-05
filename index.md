@@ -27,7 +27,7 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiples, de ta
 <div class="bloc flex-1 space-y-2 ">
     <div class="card p-5 flex-1">
     <h3>Entrainement optimisé</h3>
-    <p>Entrainer en priorité les exercices autour de vos lacunes. Une fois l'exercice terminé, accédez aux solutions pour réviser en tout temps.</p>
+    <p>Entrainer en priorité les exercices autour de vos lacunes. Toutes les réponses sont sauvées. Une fois l'exercice terminé, accédez aux solutions pour réviser en tout temps.</p>
 </div>
     <div class="card p-5 flex-1">
         <h3>Codez localement</h3>
@@ -79,17 +79,17 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiples, de ta
 
 <div class="bloc flex-1 p-5 border1 ">
     <h3>Développement personnalisé</h3>
-    <p>Besoin de nouveaux types d'exercices ou de supporter d'autres langages de programmation? Nous pouvons le développer. De plus, nous nous chargeons d'héberger un serveur Delibay sur nos serveurs ou ceux de votre école.</p>
+    <p>Besoin de nouveaux types d'exercices ou de supporter d'autres langages de programmation? Besoin d'automatiser une interaction humaine sur un exercice ? Nous pouvons le développer. De plus, nous nous chargeons d'héberger un serveur Delibay sur nos serveurs ou ceux de votre école.</p>
 </div>
 
 <div class="bloc flex-1 border1 p-5">
     <h3>Migration de votre cours</h3>
-    <p>Nous nous chargeons de migrer tous les exercices existants sur Delibay. Nous ajouterons le support de nouveaux langages de programmation ou types d'exercices si besoin. <br>Vous n'avez qu'à publier le contenu existant sur un repository Git et nous nous occupons du reste!</p>
+    <p>Nous nous chargeons de migrer tous les exercices existants sur Delibay, peu importe le format et la plateforme existante. <br>Pour démarrer sur Delibay, vous n'avez qu'à publier le contenu existant sur un repository Git et nous nous occupons du reste!</p>
 </div>
 
 <div class="bloc flex-1 border1 p-5">
     <h3>Création d'exercices sur mesure</h3>
-    <p>Nous nous chargeons de créer des exercices variés qui poussent les étudiant·es dans leurs retranchements. Vous n'avez plus qu'à relire et choisir lesquels sont les plus pertinents à chaque session de cours.<br>
+    <p>Nous créons des exercices de programmation variés qui poussent les étudiant·es à la limite de leur zone de confort. Vous n'avez plus qu'à relire et choisir lesquels sont les plus pertinents à chaque session de cours.<br>
     Les propositions et les retours se font dans des pull requests sur un repository Git public.
     </p>
 </div>
@@ -111,6 +111,13 @@ Delibay est en cours de développement, en attendant, partagez-nous vos question
 >
   <label for="name" class="">Nom complet</label>
   <input class="border2" type="text" id="name" name="name" required> <br>
+  <label for="name" class="!inline">Je suis</label>
+  <select name="type" class="inline border2 px-3">
+    <option value="teacher">Enseignant·e en informatique</option>
+    <option value="assistant">Assistant·e en informatique</option>
+    <option value="student">Etudiant·e en informatique</option>
+    <option value="other">Autre</option>
+  </select>
   <label for="email" class="">Email</label>
   <input class="border2" type="email" id="email" name="email" required> <br>
   <label for="email" class="">Remarque (optionnelle)</label>
