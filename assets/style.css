@@ -14,11 +14,20 @@
 
 }
 .card {
-    border: 2px solid #1aa78272;
+    border: 2px solid #1aa78280; /*left color of the logo*/
     border-radius: 15px;
-    padding: 10px;
 }
 
+/* Border types with the 2 right colors of the logo gradient */
+
+.border1 {
+    border: 2px solid #1ccd92;
+    border-radius: 5px;
+}
+.border2 {
+    border: 2px solid #20a8c3;
+    border-radius: 5px;
+}
 
 h2 strong, h3 strong {
     color: #1aac84 !important;
