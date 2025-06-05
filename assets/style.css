@@ -1,7 +1,9 @@
 ---
 # This yaml frontmatter is required for jekyll to process the file
 ---
-/*Note: this CSS is ugly and coded as fast as I can, just to validate the idea. I didn't figure out why @apply doesn't work. */
+/*Note: this CSS is ugly and coded as fast as I can, just to validate the idea. I didn't figure out why @apply doesn't work.
+* A number of !important is actually necessary because we are overriding the style imposed by tailwind typography.
+* */
 
 /* @import "tailwindcss"; */
 
@@ -29,12 +31,15 @@
     border-radius: 10px;
 }
 
+/* Use strong marker as a way to make it colored */
 h2 strong, h3 strong {
     color: #1aac84 !important;
 }
 
+/* Use em marker as a way to make it colored */
 h2 em, h3 em {
     color: #1fb5b2 !important;
+    font-style: normal;
 }
 
 #delibaylogo {
