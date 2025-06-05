@@ -29,9 +29,7 @@ h2 em, h3 em {
 }
 
 #delibaylogo {
-    width: 200px;
     display: inline;
-    margin-left: 10px;
 }
 
 .nicecode-big {
@@ -81,7 +79,7 @@ h2 em, h3 em {
     margin-bottom: 10px;
 }
 
-.gradient {
+.gradient, h2 {
 		background: linear-gradient(to right, #1aa782 0%, #1ccd92 36%, #20a8c3 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
