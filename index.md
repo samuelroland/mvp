@@ -52,6 +52,7 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
     <p>Pour mieux identifier les mauvaises conceptions des étudiants, une interface de synthèse des réponses par exercice. En un coup d'oeil, vous pouvez comprendre les tendances et corriger les modèle mentaux fragiles.
     </p></div>
     <div class="card flex-1"><h4>Maintenance et déploiement rapide</h4><p></p>Tout les exercices sont gérés dans des repository Git, dans des fichiers textuels et faciles à éditer. Le déploiement se fait en un <code>git push</code>.</div>
+    <div class="card flex-1"><h4>Exercices challengeants et motivants</h4><p>Allez au delà des exercices de choix multiple et pousser le challenge avec des exercices de code rapide.</p></div>
 </div>
 
 </div>
