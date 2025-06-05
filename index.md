@@ -12,6 +12,8 @@ layout: default
 **Permettre aux étudiants de pratiquer** un maximum sans friction pour acquérir des compétences profondes  
 **Aider les enseignants** à créer des exercices, les déployer, **concevoir des cours dynamiques** et transmettre **des compétences qui auront un impact** sur le long terme
 
+Delibay est dédié aux écoles d'informatique qui souhaitent améliorer la qualité et l'efficacité de leur enseignement.
+
 <h2 class="gradient">Une expérience différente</h2>
 Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de texte et de vrai/faux...
 
@@ -21,22 +23,49 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
 <h3>Pour les étudiants</h3>
 
 <div class="bloc flex-1 space-x-2 space-y-2">
-    <div class="card flex-1"><h4>Entrainement optimisé</h4><p>Entrainer en priorité les exercices adaptés à votre niveau et travailler sur vos lacunes.</p></div>
-    <div class="card flex-1"><h4>Codez localement</h4><p>Fini les exercices de code dans le navigateur, vous bénéficier d'une expérience locale et rapide. Avec toute la puissance de votre IDE favori, raccourcis et extensions.</p></div>
-    <div class="card flex-1"><h4>Fini les cours magistraux</h4><p>Au lieu de vous ennuyer de longues heures en cours, Delibay permet de s'impliquer dans un apprentissage actif en classe.</p></div>
+    <div class="card flex-1"><h4>Entrainement optimisé</h4>
+    <p>Entrainer en priorité les exercices adaptés à votre niveau et travailler sur vos lacunes. Accéder aux solutions en tout temps sans se spoiler pour réviser en dehors en classe.</p>
+</div>
+    <div class="card flex-1"><h4>Codez localement</h4>
+        <p>Fini les exercices de code dans le navigateur! Vous bénéficiez d'une expérience locale et rapide. Avec toute la puissance de votre IDE favori, raccourcis et extensions.</p>
+    </div>
+    <div class="card flex-1"><h4>Fini les cours magistraux</h4>
+        <p>Au lieu de vous ennuyer de longues heures en cours, Delibay permet de s'impliquer dans un apprentissage actif en classe.</p>
+    </div>
+    <div class="card flex-1"><h4>Feedback riche et immédiat</h4>
+        <p>Obtenez du feedback immédiat sur le fonctionnement de votre code, via des suites de tests sur chaque exercice, lancée à chaque sauvegarde de fichier! Comprenez immédiatement le détail de l'erreur d'un exercice de concepts grâce aux détails de solution.</p>
+    </div>
 </div>
 
 </div>
-<div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
+
+
+<div class="flex-1 ">
 
 <h3>Pour les enseignants</h3>
 
+<div class="bloc flex-1 space-x-2 space-y-2">
+    <div class="card flex-1"><h4>En live ou asynchrone</h4>
+    <p>Delibay est autant utiles aux exercices en live en classe ou en donner en devoir. Dans les 2 cas, vous pouvez accéder aux réponses pour mieux comprendre les lacunes de vos étudiants.
+    </p></div>
+    <div class="card flex-1"><h4>Synthèse des réponses et de la progression</h4>
+    <p>Pour mieux identifier les mauvaises conceptions des étudiants, une interface de synthèse des réponses par exercice. En un coup d'oeil, vous pouvez comprendre les tendances et corriger les modèle mentaux fragiles.
+    </p></div>
+    <div class="card flex-1"><h4>Maintenance et déploiement rapide</h4><p></p>Tout les exercices sont gérés dans des repository Git, dans des fichiers textuels et faciles à éditer. Le déploiement se fait en un <code>git push</code>.</div>
+</div>
+
 </div>
 </div>
+
 
 ## Nos services
 
 <div class="md:flex md:flex-wrap md:space-x-2 space-y-2 md:space-y-0">
+
+<div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
+    <h3>Hébergement et développement personnalisé</h3>
+    <p>Nous nous chargeons d'héberger un serveur Delibay, de gérer les mises à jours, sur nos serveurs ou ceux de votre école. Si vous avez besoin de nouveaux types d'exercices ou de supporter d'autres languages de programmation, nous pouvons vous aider.</p>
+</div>
 
 <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
     <h3>Migration de votre cours</h3>
@@ -50,10 +79,10 @@ Delibay, ce n'est pas seulement des exercices de code, de choix multiple, de tex
     </p>
 </div>
 
-<div class="bloc flex-1 border border-blue-500 p-5 rounded-sm">
-    <h3>Amélioration continue de vos exercices</h3>
-    <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer la qualité des exercices. Nous nous occupons de détailler des solutions, d'agrémenter de schémas, d'imaginer des métaphores ou de vulgariser des concepts abstraits.</p>
-</div>
+<!-- <div class="bloc flex-1 border border-blue-500 p-5 rounded-sm"> -->
+<!--     <h3>Amélioration continue de vos exercices</h3> -->
+<!--     <p>Nous nous chargeons d'analyser les statistiques des réponses et de lire les réponses textuelles, pour améliorer la qualité des exercices. Nous nous occupons de détailler des solutions, d'agrémenter de schémas, d'imaginer des métaphores ou de vulgariser des concepts abstraits.</p> -->
+<!-- </div> -->
 
 </div>
 
